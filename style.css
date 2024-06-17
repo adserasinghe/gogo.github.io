@@ -1,0 +1,34 @@
+/* author: Grant Jenkins
+https://codepen.io/grantjenkins/pen/ZEZvJZz */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background: #0d3131;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body canvas {
+  box-shadow: 0.2em 0.2em 2em #0008;
+  border: none;
+  outline: none;
+}
+.developerDetails {
+  margin-top: 2vw;
+  display: flex;nav-down: auto;
+  flex-direction: column;
+  color: #0c1021;
+  font-family: monospace;
+  align-items: right;
+  
+}
+
+.developerDetails a {
+  color: #1b0c21;
+}
